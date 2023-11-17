@@ -74,6 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Row(
               children: [
+                Text("Language mode:  ".tr),
+                Spacer(),
                 TextButton(
                     onPressed: () => Get.updateLocale(const Locale('mn', 'MN')),
                     child: Text("🇲🇳")),
